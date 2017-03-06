@@ -118,7 +118,7 @@ CustomBot.prototype.next = function(){
   if(currentStudent){
     this.bot.sendMessage(
       this.channel,
-      `<@${currentStudent.id}>, let's create a breakout room in https://generalassembly.zoom.us/j/651295243. \n
+      `<@${currentStudent.id}>, let's create a breakout room in https://generalassembly.zoom.us/j/4346631127. \n
        ${this.prettyQueue()}`
     );
 
