@@ -118,7 +118,7 @@ CustomBot.prototype.next = function(){
   if(currentStudent){
     this.bot.sendMessage(
       this.channel,
-      `<@${currentStudent.id}>, let's create a breakout room in https://generalassembly.zoom.us/j/4346631127. \n
+      `<@${currentStudent.id}>, let's zoom: https://generalassembly.zoom.us/j/4346631127. \n
        ${this.prettyQueue()}`
     );
 
@@ -237,7 +237,7 @@ CustomBot.prototype.respond = function(message){
 
   switch(text){
     case "hello":
-      this.bot.sendMessage(this.channel, `Hello, ${this.full_name}`);
+      this.bot.sendMessage(this.channel, `Hello, ${this.full_name} :wave:`);
       break;
     case "status":
       this.bot.sendMessage(this.channel, this.prettyQueue());
@@ -257,6 +257,7 @@ CustomBot.prototype.respond = function(message){
       this.help();
       break;
     case "clear queue":
+    case "clear q":
       if(this.access_level >= 2) this.clearQueue();
       break;
     case "next":
