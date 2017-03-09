@@ -14,12 +14,12 @@ var adminID = process.env['ADMIN_ID'];
 
 var bot = new slackbot(botKey);
 var bot_functions = require('./bot-functions')(bot, taID, adminID);
-var easterEggs = require('./easter-eggs')(bot, taID);
+// var easterEggs = require('./easter-eggs')(bot, taID);
 
 bot.use(bot_functions);
 
-for (var key in easterEggs) {
-  bot.use(easterEggs[key]);
-}
+// for (var key in easterEggs) {
+//   bot.use(easterEggs[key]);
+// }
 
 bot.connect();
