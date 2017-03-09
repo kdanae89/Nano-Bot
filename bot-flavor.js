@@ -20,7 +20,7 @@ var bot_flavor = {
     "There's something you learn in your first boot-camp, or training camp: If they put you down somewhere with nothing to do, go to sleep — you don't know when you'll get any more. :laughing::zzz: --Grace Hopper",
     "Grace Hopper is credited with coining the terms 'bug' and 'de-bug' as related to computer errors. One day a computer failure stumped Hopper and her team until she opened the machine and found a moth inside! Taping the moth into her log book, she wrote, 'first actual bug found.' :bee::bug::beetle:",
     "Grace Brewster Murray Hopper, an American computer scientist, popularized the idea of machine-independent programming languages, which led to the development of COBOL (common business-oriented language). :computer:",
-    "Carol Shaw - Fresh out of Berkeley’s Computer Science graduate program, Shaw accepted a position at game-maker Atari in the late 1970s. Wearing thick-rimmed glasses and flannel, she biked 10 miles each way to design and program video games.",
+    "Carol Shaw - Fresh out of Berkeley’s Computer Science graduate program, Shaw accepted a position at game-maker Atari in the late 1970s. Wearing thick-rimmed glasses and flannel, she biked 10 miles each way to design and program video games. :joystick::powerup:",
     "Did you know? Carol Shaw programmed one of the Atari’s best-known shooter games, River Raid. :boom::space_invader::joystick:"
   ],
 };
